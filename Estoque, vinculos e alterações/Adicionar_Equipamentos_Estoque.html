@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define que este documento é HTML5 e configura o idioma como Português do Brasil -->
+
+<head>
+    <!-- Início da seção de cabeçalho da página -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para ser responsiva, ajustando-se a diferentes tamanhos de tela -->
+    <title>Fluxo de Adicionar Equipamentos no Estoque</title>
+    <!-- Define o título da página que aparece na aba do navegador -->
+
+    <!-- Importa o framework Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Adiciona animações e transições suaves aos itens */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            /* Move o item ligeiramente para cima quando o cursor passa por ele */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            /* Adiciona uma sombra mais forte para destaque */
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Configura o fundo com um gradiente suave e define fontes e cores padrão -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Centraliza o conteúdo, limita a largura, adiciona um fundo branco com sombra, bordas arredondadas e espaçamento interno -->
+
+        <!-- Cabeçalho principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Fluxo de Adicionar Equipamentos no Estoque
+        </h1>
+        <!-- Estiliza o título principal com fonte grande, cor azul e margens para espaçamento -->
+
+        <!-- Subtítulo -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            6ª Fase: Adicionar os Equipamentos no Estoque (Placa Toradex)
+        </h2>
+        <!-- Estiliza o subtítulo com tamanho intermediário, cor azul mais clara e uma borda inferior -->
+
+        <!-- Lista de passos -->
+        <ul class="mt-8 space-y-6">
+            <!-- Adiciona espaçamento entre os itens da lista -->
+
+            <!-- Cada passo estilizado como "card" -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    64
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Aba Estoque</h3>
+                    <p class="text-sm text-gray-600">Acesse a aba principal para iniciar a adição de equipamentos.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    65
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Menu Equipamento</h3>
+                    <p class="text-sm text-gray-600">
+                        Estes equipamentos são os seriais das placas (box) que precisam ser cadastrados. Clique em
+                        <strong>Adicionar</strong>.
+                    </p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    66
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Descrição</h3>
+                    <p class="text-sm text-gray-600">
+                        Utilize a mesma descrição cadastrada no Monitorado. Em caso de dúvida, consulte a parte de
+                        Contratos e visualize o ID de Monitoramento.
+                    </p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    67
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Número de Série</h3>
+                    <p class="text-sm text-gray-600">
+                        Preencha de acordo com o esquema definido pela equipe de desenvolvimento.
+                    </p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    68
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Tipo de Equipamento</h3>
+                    <p class="text-sm text-gray-600">
+                        Utilize a lógica: 1-Hidrosat, 2-Hidrolan, 3-Hidrosmart, 4-Hidroflow.
+                    </p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    69
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Fabricante</h3>
+                    <p class="text-sm text-gray-600">Informe o fabricante como <strong>Toradex</strong>.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    70
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Modelo do Equipamento</h3>
+                    <p class="text-sm text-gray-600">Selecione sempre a última opção: <strong>V 2.1</strong>.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    71
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Status</h3>
+                    <p class="text-sm text-gray-600">Defina como <strong>Disponível</strong>.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    72
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Situação</h3>
+                    <p class="text-sm text-gray-600">Defina como <strong>Primária</strong>.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    73
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Observações</h3>
+                    <p class="text-sm text-gray-600">
+                        Preencha o campo MAC apenas se utilizar o HIDROLAN, conforme orientações da equipe Jerab.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

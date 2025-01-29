@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define que este documento é HTML5 e configura o idioma como Português do Brasil -->
+
+<head>
+    <!-- Início da seção de cabeçalho da página -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para ser responsiva, ajustando-se a diferentes tamanhos de tela -->
+    <title>Fluxo de Adicionar Hidrômetro no Estoque</title>
+    <!-- Define o título da página, que aparece na aba do navegador -->
+
+    <!-- Importação do Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Estilos personalizados para animações e transições */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+            /* Define uma transição suave para transformações e sombras */
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            /* Move o item para cima quando o mouse passa por cima */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra sutil ao item */
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Corpo do documento com fundo em gradiente e fonte padrão -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Container centralizado com largura máxima e estilo de cartão -->
+
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            <!-- Cabeçalho principal da página -->
+            Fluxo de Adicionar Hidrômetro no Estoque
+        </h1>
+
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            <!-- Subtítulo indicando a fase do fluxo -->
+            7ª Fase: Adicionar o Hidrômetro no Estoque
+        </h2>
+
+        <ul class="mt-8 space-y-6">
+            <!-- Lista não ordenada com espaçamento entre itens -->
+
+            <!-- Cada passo está dentro de uma "card" estilizada -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    71
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Guia Estoque</h3>
+                    <p class="text-sm text-gray-600">Acesse a guia de estoque para iniciar o processo.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    72
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Menu Medidor</h3>
+                    <p class="text-sm text-gray-600">Abra o menu Medidor para localizar ou adicionar um hidrômetro.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    73
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">+Adicionar</h3>
+                    <p class="text-sm text-gray-600">Clique no botão adicionar, ou busque o hidrômetro existente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    74
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Descrição</h3>
+                    <p class="text-sm text-gray-600">Preencha a descrição conforme registrado no monitorado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    75
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Número de Série</h3>
+                    <p class="text-sm text-gray-600">Insira o número de série, incluindo o MP correspondente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    76
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Tipo de Equipamento</h3>
+                    <p class="text-sm text-gray-600">Selecione "Hidrômetro".</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    77
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Fabricante</h3>
+                    <p class="text-sm text-gray-600">Informe o fabricante conforme a ficha de cadastro.</p>
+                </div>
+            </li>
+
+            <!-- Repita o padrão para os demais passos... -->
+
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define que este documento é HTML5 e configura o idioma como Português do Brasil -->
+
+<head>
+    <!-- Início da seção de cabeçalho -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização responsiva -->
+    <title>Fluxo de Criação de Contrato</title>
+    <!-- Define o título da página -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Importa a biblioteca Tailwind CSS -->
+    <style>
+        /* Adiciona animações e transições suaves */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+            /* Suaviza a transformação e a sombra dos itens */
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            /* Move o item ligeiramente para cima ao passar o mouse */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra sutil ao item ao passar o mouse */
+        }
+    </style>
+    <!-- Fim da seção de estilos -->
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Aplica um gradiente de fundo e configurações de texto e espaçamento -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Define um contêiner centralizado com bordas arredondadas, sombra e preenchimento interno -->
+        
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Fluxo de Criação de Contrato
+        </h1>
+        <!-- Título principal da página, estilizado com tamanho grande, negrito e cor azul -->
+
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            3ª Fase: Criação de Contrato
+        </h2>
+        <!-- Subtítulo com tamanho médio, cor azul e uma linha inferior decorativa -->
+
+        <ul class="mt-8 space-y-6">
+            <!-- Lista de passos com espaçamento vertical entre os itens -->
+
+            <!-- Cada passo é um "card" estilizado -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    30
+                </div>
+                <!-- Número do passo com estilo circular -->
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Aba Contratos</h3>
+                    <!-- Título do passo -->
+                    <p class="text-sm text-gray-600">Acesse a aba de contratos para iniciar o processo.</p>
+                    <!-- Descrição do passo -->
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    31
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Contratos</h3>
+                    <p class="text-sm text-gray-600">Selecione a opção de contrato desejada.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    32
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Adicionar</h3>
+                    <p class="text-sm text-gray-600">Clique no botão para adicionar um novo contrato.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    33
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cadastrar</h3>
+                    <p class="text-sm text-gray-600">Inicie o cadastro preenchendo os dados do contrato.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    34
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cliente</h3>
+                    <p class="text-sm text-gray-600">Preencha os dados do cliente (feito na aba cliente).</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    35
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Plano</h3>
+                    <p class="text-sm text-gray-600">Escolha o plano para o contrato (geralmente Hidrosat 36 meses).</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    36
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Número de Contrato</h3>
+                    <p class="text-sm text-gray-600">Informe o número do contrato a ser atribuído.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    37
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Número de Monitorados</h3>
+                    <p class="text-sm text-gray-600">Digite o número de aparelhos Hidrosat a serem monitorados.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    38
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Local da Instalação</h3>
+                    <p class="text-sm text-gray-600">Indique o local onde o contrato será instalado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    39
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Descrição</h3>
+                    <p class="text-sm text-gray-600">Forneça uma breve descrição (ex: números dos modelos Hidros).</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    40
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Observação</h3>
+                    <p class="text-sm text-gray-600">Inclua observações extras, caso necessário.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    41
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Início do Contrato</h3>
+                    <p class="text-sm text-gray-600">Defina a data de início do contrato (geralmente no mesmo dia).</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    42
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Final do Contrato</h3>
+                    <p class="text-sm text-gray-600">Defina a data final do contrato (geralmente 3 anos depois, se não houver data específica).</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    43
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Status</h3>
+                    <p class="text-sm text-gray-600">Defina o status do contrato como "Ativo".</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    44
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Vendedor</h3>
+                    <p class="text-sm text-gray-600">Identifique o vendedor responsável (ex: Hidrocontrol).</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    45
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Situação</h3>
+                    <p class="text-sm text-gray-600">Defina a situação do contrato como "Habilitado".</p>
+                </div>
+            </li>
+
+        </ul>
+        <!-- Fim da lista -->
+    </div>
+</body>
+
+</html>

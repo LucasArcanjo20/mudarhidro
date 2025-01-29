@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma do documento como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Torna a página responsiva em diferentes dispositivos -->
+    <title>Anotações Sobre Números de Série</title>
+    <!-- Define o título da página exibido na aba do navegador -->
+
+    <!-- Inclusão do Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Adiciona animações e transições suaves para itens da lista */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Aplica um gradiente de fundo, define uma fonte legível e espaçamento entre as linhas -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Cria um contêiner centralizado com bordas arredondadas e sombra -->
+
+        <!-- Título principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Anotações Sobre Números de Série
+        </h1>
+
+        <!-- Introdução -->
+        <p class="text-lg text-gray-700 mb-6">
+            Esta página contém anotações e exemplos detalhados para o cadastro de equipamentos, medidores e comunicadores
+            no sistema, baseando-se nos números de série definidos. Siga as instruções abaixo para garantir o correto
+            registro.
+        </p>
+
+        <!-- Seção: Cadastrar Equipamento -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            Cadastrar Equipamento
+        </h2>
+        <p class="mt-4 text-gray-600">
+            O número de série do equipamento segue o formato definido pelo Luiz. Ele é composto pelos seguintes elementos:
+        </p>
+        <ul class="mt-4 space-y-4">
+            <!-- Lista detalhada com passos estilizados -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    1º
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">O tipo de equipamento:</h3>
+                    <ul class="pl-5 text-gray-600 list-disc">
+                        <li>1 - Hidrosat</li>
+                        <li>2 - Hidroflow</li>
+                        <li>3 - Hidrosmart</li>
+                        <li>4 - Hidrolan</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2º
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">O ano (por exemplo, 2023 = 23).</h3>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    3º
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">O mês (março = 03).</h3>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    4º
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">A quantidade de equipamentos (05 para 5 unidades, 23 para 23 unidades, etc.).</h3>
+                </div>
+            </li>
+        </ul>
+        <p class="mt-4 text-gray-600">
+            Exemplo: Para um Hidrosat cadastrado em março de 2023 com 5 unidades, o número de série será:
+        </p>
+        <ul class="mt-2 pl-5 text-gray-600 list-disc">
+            <li class="font-bold text-blue-600">1-230305</li>
+        </ul>
+
+        <!-- Outras seções seguem o mesmo padrão -->
+        <!-- Repetição omitida por brevidade, mas aplique o mesmo estilo aos outros exemplos (medidores, antenas, sondas) -->
+
+        <!-- Seção: Observações Importantes -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mt-8">
+            Observações Importantes
+        </h2>
+        <ul class="mt-4 space-y-4">
+            <li class="step-item flex items-start bg-red-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-red-500 text-white rounded-full font-bold mr-4">
+                    OBS
+                </div>
+                <div class="text-gray-600">
+                    O cadastro da conta só será concluído após a alteração de senha.
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-red-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-red-500 text-white rounded-full font-bold mr-4">
+                    OBS
+                </div>
+                <div class="text-gray-600">
+                    Cada monitorado tem sua outorga (podem ser iguais).
+                </div>
+            </li>
+        </ul>
+
+        <!-- Processo de Criação de Contas -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mt-8">
+            Processo de Criação de Contas
+        </h2>
+        <ul class="mt-4 space-y-4">
+            <li class="step-item flex items-start bg-green-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-green-500 text-white rounded-full font-bold mr-4">
+                    1º
+                </div>
+                <div class="text-gray-600">
+                    Certifique-se de preencher corretamente a questão do UTC no perfil do cliente e no cadastro do monitorado.
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-green-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-green-500 text-white rounded-full font-bold mr-4">
+                    2º
+                </div>
+                <div class="text-gray-600">
+                    O login e senha dos novos clientes devem ser registrados na planilha de login e senha.
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+S

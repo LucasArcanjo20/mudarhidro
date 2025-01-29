@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma do documento como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 para suportar caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a página para ser responsiva e ajustar a largura conforme o dispositivo -->
+    <title>Ordem de Remoção</title>
+    <!-- Define o título da página que aparece na aba do navegador -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inclui a biblioteca Tailwind CSS para estilização -->
+    <style>
+        /* Estilos adicionais para transições e efeitos visuais */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+            /* Adiciona animação suave para transformação e sombra */
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            /* Eleva o item levemente ao passar o mouse */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra mais intensa ao passar o mouse */
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Corpo do documento com fundo em degradê e fontes ajustadas -->
+    
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Container principal da página com centralização e estilização -->
+        
+        <!-- Título principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Ordem de Remoção
+        </h1>
+
+        <!-- Parágrafo introdutório -->
+        <p class="text-lg text-gray-700 mb-6">
+            Este guia detalha o processo para realizar a remoção de equipamentos no sistema. A remoção abrange o conjunto de
+            equipamentos como antena, sonda, placa, hidrômetro, e monitorado. Siga as etapas abaixo para garantir que o procedimento
+            seja executado corretamente.
+        </p>
+
+        <!-- Subtítulo -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            Passos para Criar e Finalizar a Ordem de Remoção
+        </h2>
+
+        <!-- Lista de passos principais -->
+        <ul class="mt-8 space-y-6">
+            <!-- Cada passo é estilizado como um "card" -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    1
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Acesse a aba Ordem de Serviços</h3>
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Clique em "Cadastrar"</h3>
+                    <p class="text-sm text-gray-600">Inicie uma nova ordem de remoção.</p>
+                </div>
+            </li>
+            <!-- Continue o padrão de estilização para os outros passos -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    3
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Selecione o Tipo de Operação</h3>
+                    <p class="text-sm text-gray-600">Defina como "Remoção".</p>
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    4
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Preenchimento Automático</h3>
+                    <p class="text-sm text-gray-600">O campo "Técnico" será preenchido automaticamente.</p>
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    5
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Escolha o Cliente</h3>
+                    <p class="text-sm text-gray-600">Selecione a empresa correspondente.</p>
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    6
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Selecione o Monitorado</h3>
+                    <p class="text-sm text-gray-600">Identifique o monitorado correspondente.</p>
+                </div>
+            </li>
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    7
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Revise e Finalize</h3>
+                    <p class="text-sm text-gray-600">Confirme os dados e clique em "Gerar OS".</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Observações importantes -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mt-8">
+            Observações Importantes
+        </h2>
+        <ul class="mt-4 space-y-4">
+            <li class="text-gray-700"><span class="font-bold text-red-500">OBS:</span> Certifique-se de que todos os equipamentos estão devidamente identificados.</li>
+            <li class="text-gray-700"><span class="font-bold text-red-500">OBS:</span> Revise todas as informações antes de finalizar.</li>
+        </ul>
+    </div>
+</body>
+
+</html>

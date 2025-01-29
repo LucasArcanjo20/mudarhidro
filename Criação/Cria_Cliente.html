@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxo de Criação de Cliente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Adiciona animações e transições suaves */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Título principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Fluxo de Criação de Cliente
+        </h1>
+
+        <!-- Subtítulo -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            1ª Fase: Criação de Cliente
+        </h2>
+
+        <!-- Lista de passos -->
+        <ul class="mt-8 space-y-6">
+            <!-- Cada passo é uma "card" estilizada -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    1
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Aba Cliente</h3>
+                    <p class="text-sm text-gray-600">Acesse a aba principal para iniciar o cadastro do cliente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Adiciona</h3>
+                    <p class="text-sm text-gray-600">Clique no botão <strong>"Adicionar"</strong> para criar um novo registro.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    3
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Dados</h3>
+                    <p class="text-sm text-gray-600">Preencha as informações básicas do cliente, como nome e documento.</p>
+                </div>
+            </li>
+
+            <!-- Outros passos repetem o mesmo padrão -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    4
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Nome</h3>
+                    <p class="text-sm text-gray-600">Informe o nome da empresa ou o nome fantasia do cliente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    5
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">CNPJ ou CPF</h3>
+                    <p class="text-sm text-gray-600">Digite o CNPJ ou CPF do cliente, conforme aplicável.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    6
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Endereço</h3>
+                    <p class="text-sm text-gray-600">Insira o endereço completo, incluindo número e CEP.</p>
+                </div>
+            </li>
+
+            <!-- Repita o padrão para todos os outros passos -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    7
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Contato</h3>
+                    <p class="text-sm text-gray-600">Forneça informações de contato, como telefone e e-mail.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    8
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Imagem</h3>
+                    <p class="text-sm text-gray-600">Adicione uma imagem do cliente com proporção quadrada.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    9
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Situação</h3>
+                    <p class="text-sm text-gray-600">Certifique-se de que a situação está habilitada.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

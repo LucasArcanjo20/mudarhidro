@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuração de Outorga</title>
+    <!-- Inclusão do Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Adiciona animações e transições suaves para os itens */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Container principal para centralizar e organizar o conteúdo -->
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Título principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Configuração de Outorga
+        </h1>
+
+        <!-- Subtítulo -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            Guia passo a passo
+        </h2>
+
+        <!-- Lista de passos do processo -->
+        <ul class="mt-8 space-y-6">
+            <!-- Cada item da lista é estilizado como um "card" -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    1
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Aba Monitorados</h3>
+                    <p class="text-sm text-gray-600">Acesse a aba "Monitorados" para iniciar a configuração.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Selecionar o Cliente</h3>
+                    <p class="text-sm text-gray-600">Escolha o cliente que deseja editar a outorga.</p>
+                </div>
+            </li>
+
+            <!-- Adicionar mais passos seguindo o mesmo padrão -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    3
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Buscar</h3>
+                    <p class="text-sm text-gray-600">Utilize a função de busca para localizar o cliente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    4
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Pesquisar</h3>
+                    <p class="text-sm text-gray-600">Clique no ícone de lupa para acessar a guia de outorga.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    5
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Visualizar Detalhes</h3>
+                    <p class="text-sm text-gray-600">Acesse o ícone verde para visualizar os detalhes.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    6
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Guia Outorga</h3>
+                    <p class="text-sm text-gray-600">Navegue até a guia "Outorga" e preencha os dados necessários.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    7
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Número da Outorga</h3>
+                    <p class="text-sm text-gray-600">Insira o número e o processo relacionado à outorga.</p>
+                </div>
+            </li>
+
+            <!-- Continuar com os passos restantes -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    8
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Data de Validade</h3>
+                    <p class="text-sm text-gray-600">Adicione a data de validade da outorga.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    9
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Vazão da Outorga</h3>
+                    <p class="text-sm text-gray-600">Certifique-se de preencher a vazão corretamente.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

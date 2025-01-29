@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma do documento como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho do documento -->
+
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Torna a página responsiva em diferentes dispositivos -->
+
+    <title>Roteiro de Análise Preditiva</title>
+    <!-- Define o título da página exibido na aba do navegador -->
+
+    <!-- Importação do Tailwind CSS para estilos modernos e responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Estilos adicionais personalizados */
+
+        /* Adiciona animações e transições suaves para itens */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Efeito ao passar o mouse sobre os passos */
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo para caixas de código (modelos de e-mail) */
+        .email-template {
+            background-color: #f9f9f9; /* Fundo claro */
+            border: 1px solid #ccc; /* Borda cinza */
+            padding: 10px; /* Preenchimento interno */
+            margin-top: 20px; /* Espaçamento superior */
+            white-space: pre-wrap; /* Mantém a formatação original do texto */
+            font-family: Courier, monospace; /* Fonte de estilo fixo */
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Corpo do documento com estilo aplicado -->
+
+    <!-- Container principal -->
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Título principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Roteiro de Análise Preditiva
+        </h1>
+
+        <!-- Descrição inicial -->
+        <p class="text-lg text-gray-700 mb-6">
+            Este é o roteiro de análise preditiva que deve ser realizado no dia 1º e no dia 15 de cada mês.
+            Siga os passos abaixo para realizar o processo corretamente.
+        </p>
+
+        <!-- Seção de passos -->
+        <h2 class="text-2xl font-semibold text-orange-500 border-b-2 border-orange-300 pb-3">
+            Passos para Análise Preditiva
+        </h2>
+
+        <!-- Lista de passos -->
+        <ul class="mt-8 space-y-6">
+            <!-- Passo 1 -->
+            <li class="step-item flex items-start bg-orange-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-orange-500 text-white rounded-full font-bold mr-4">
+                    1
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Acessar a Aba Monitoramento</h3>
+                    <p class="text-sm text-gray-600">Abra o sistema e vá para a aba Monitoramento.</p>
+                </div>
+            </li>
+
+            <!-- Passo 2 -->
+            <li class="step-item flex items-start bg-orange-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-orange-500 text-white rounded-full font-bold mr-4">
+                    2
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Verificar Equipamentos com Problemas</h3>
+                    <ul class="mt-2 pl-6 list-disc text-sm text-gray-600">
+                        <li>Identifique equipamentos que não estão transmitindo dados.</li>
+                        <li>Utilize ferramentas como Monitoramento, Relatórios e Análise de Pacotes.</li>
+                        <li>Confirme a última data de transmissão dos equipamentos.</li>
+                        <li>Registre os dados em uma planilha, incluindo status e observações.</li>
+                    </ul>
+                </div>
+            </li>
+
+            <!-- Passo 3 -->
+            <li class="step-item flex items-start bg-orange-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-orange-500 text-white rounded-full font-bold mr-4">
+                    3
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Equipamentos “Sem Comunicação por Mais de 24 Horas”</h3>
+                    <ul class="mt-2 pl-6 list-disc text-sm text-gray-600">
+                        <li>Adicione equipamentos sem comunicação por mais de 24 horas à planilha de controle.</li>
+                        <li>Envie um e-mail padrão para notificar as empresas responsáveis.</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Guia de e-mails padrão -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mt-8">
+            Guia de E-mail Padrão
+        </h2>
+
+        <!-- Modelo de e-mail Hidrosat/Hidroflow -->
+        <h3 class="text-lg font-bold text-gray-700 mt-6">Modelo de E-mail para Hidrosat/Hidroflow</h3>
+        <div class="email-template">
+            Assunto: Equipamento Sem Comunicação há Mais de 24 Horas
+
+            Olá, tudo bem?
+
+            Após análise do equipamento (COLOCAR QUAL É), identificamos que ele não transmite dados há mais de 24 horas.
+            Para prosseguirmos com o diagnóstico, solicitamos que sejam realizadas as seguintes verificações:
+
+            1. Confirme se o LED do equipamento está aceso.
+            2. Teste a tomada do equipamento para verificar se está fornecendo energia.
+            3. Inspecione o cabo de alimentação e da antena para identificar danos.
+            4. Certifique-se de que não há obstruções físicas na antena satélite.
+
+            Após realizar as verificações, pedimos que nos reporte os resultados para que possamos orientar os próximos passos.
+
+            Atenciosamente,
+        </div>
+
+        <!-- Modelo de e-mail Hidrosmart -->
+        <h3 class="text-lg font-bold text-gray-700 mt-6">Modelo de E-mail para Hidrosmart</h3>
+        <div class="email-template">
+            Assunto: Equipamento Sem Comunicação
+
+            Durante uma análise, identificamos que os equipamentos abaixo não apresentam dados de transmissões.
+
+            1. Certifique-se de que os equipamentos estão conectados à rede elétrica.
+            2. Verifique se o LED verde do equipamento está aceso.
+            3. Realize uma breve captação e observe se o LED azul acende.
+
+            Após realizar as verificações, pedimos que nos reporte os resultados.
+
+            Atenciosamente,
+        </div>
+    </div>
+</body>
+
+</html>

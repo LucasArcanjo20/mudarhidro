@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma do documento como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a página para ser responsiva -->
+    <title>Alteração de Senha</title>
+    <!-- Título da página exibido na aba do navegador -->
+
+    <!-- Inclui o Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilo adicional para transições e foco */
+        body {
+            font-family: Arial, sans-serif;
+            /* Define a fonte principal do documento */
+            line-height: 1.6;
+            /* Define o espaçamento entre linhas */
+            color: #333;
+            /* Define a cor padrão do texto */
+            margin: 20px;
+            /* Define a margem ao redor do corpo da página */
+        }
+
+        h1 {
+            color: #007BFF;
+            /* Define a cor do título principal */
+        }
+
+        ul {
+            list-style: none;
+            /* Remove os marcadores padrão da lista */
+            padding: 0;
+            /* Remove o espaçamento interno da lista */
+        }
+
+        li {
+            margin-bottom: 15px;
+            /* Adiciona espaçamento entre os itens da lista */
+        }
+
+        .step-number {
+            font-weight: bold;
+            /* Destaca o número do passo em negrito */
+            color: #0056b3;
+            /* Define a cor dos números dos passos */
+        }
+
+        .important {
+            font-weight: bold;
+            /* Destaca o texto importante */
+            color: #C70039;
+            /* Usa uma cor chamativa para ênfase */
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            /* Define uma transição suave */
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            /* Eleva o cartão levemente ao passar o mouse */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra */
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <!-- Corpo do documento com fundo cinza claro e texto escuro -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Container centralizado com largura máxima de 4xl -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">Alteração de Senha</h1>
+        <!-- Título principal da página -->
+
+        <p class="text-lg leading-relaxed text-gray-700 mb-8">
+            Este guia descreve como realizar a alteração de senha no sistema, tanto para clientes quanto para
+            responsáveis técnicos. Este processo é fundamental para garantir a segurança do sistema.
+        </p>
+        <!-- Parágrafo introdutório -->
+
+        <h2 class="text-2xl font-semibold text-blue-500 mb-4">Passos para Alteração de Senha</h2>
+        <!-- Subtítulo para os passos -->
+
+        <ul class="space-y-4">
+            <!-- Lista não ordenada com espaçamento entre os itens -->
+            <li class="card bg-blue-50 rounded-lg p-4 shadow-md flex items-start">
+                <span class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    1
+                </span>
+                <div>
+                    <h3 class="font-semibold text-gray-700">Acesse a aba Cliente</h3>
+                    <p class="text-gray-600">Entre na seção principal para gerenciar clientes.</p>
+                </div>
+            </li>
+            <li class="card bg-blue-50 rounded-lg p-4 shadow-md flex items-start">
+                <span class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2
+                </span>
+                <div>
+                    <h3 class="font-semibold text-gray-700">Pesquise pelo cliente</h3>
+                    <p class="text-gray-600">Utilize a funcionalidade de busca pelo nome do cliente.</p>
+                </div>
+            </li>
+            <!-- Adicione outros passos no mesmo formato -->
+        </ul>
+
+        <h2 class="text-2xl font-semibold text-blue-500 mt-8 mb-4">Observações Importantes</h2>
+        <!-- Subtítulo para observações -->
+
+        <ul class="space-y-4">
+            <li class="card bg-red-50 rounded-lg p-4 shadow-md flex items-start">
+                <span class="font-semibold text-red-500 mr-2">•</span>
+                <div>
+                    <h3 class="font-semibold text-gray-700">Responsável Técnico</h3>
+                    <p class="text-gray-600">Utiliza o login de acesso em vez da matrícula.</p>
+                </div>
+            </li>
+            <li class="card bg-red-50 rounded-lg p-4 shadow-md flex items-start">
+                <span class="font-semibold text-red-500 mr-2">•</span>
+                <div>
+                    <h3 class="font-semibold text-gray-700">Usuário</h3>
+                    <p class="text-gray-600">A pessoa que utiliza o sistema com permissões específicas.</p>
+                </div>
+            </li>
+            <!-- Adicione mais observações importantes -->
+        </ul>
+
+        <p class="text-gray-700 mt-8">
+            Após a alteração, teste o login com a nova senha para garantir que o processo foi concluído com sucesso.
+        </p>
+        <!-- Mensagem final -->
+    </div>
+</body>
+
+</html>

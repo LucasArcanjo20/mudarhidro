@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma do documento como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Torna a página responsiva em diferentes dispositivos -->
+    <title>Gestão de Pacotes</title>
+    <!-- Define o título da página exibido na aba do navegador -->
+    
+    <!-- Importação do TailwindCSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        /* Estilo para animações e transições suaves nos itens de lista */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Estilo para hover nos itens de lista, movendo para cima e aplicando sombra */
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Corpo do documento com gradiente no fundo e texto estilizado -->
+
+    <!-- Container principal centralizado -->
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Container principal com bordas arredondadas, sombra e preenchimento -->
+
+        <!-- Título principal da página -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Gestão de Pacotes
+        </h1>
+
+        <!-- Parágrafo explicativo -->
+        <p class="text-lg text-gray-700 mb-8">
+            Este guia descreve os passos para realizar a gestão de pacotes no sistema, incluindo a análise de dados de
+            falso pulso associados aos monitorados.
+        </p>
+
+        <!-- Título da seção para os passos -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mb-6">
+            Passos para a Gestão de Pacotes
+        </h2>
+
+        <!-- Lista de passos -->
+        <ul class="space-y-6">
+            <!-- Passo 1 -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <!-- Estilo para o item de lista -->
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    <!-- Número do passo -->
+                    1
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Acesse a aba Gestão de Pacotes</h3>
+                    <p class="text-sm text-gray-600">Clique na aba correspondente no sistema para começar.</p>
+                    <!-- Descrição do passo -->
+                </div>
+            </li>
+
+            <!-- Passo 2 -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Selecione o Cliente</h3>
+                    <p class="text-sm text-gray-600">Escolha um cliente específico ou visualize todos os clientes juntos.</p>
+                </div>
+            </li>
+
+            <!-- Passo 3 -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    3
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Selecione a Data</h3>
+                    <p class="text-sm text-gray-600">Utilize o filtro de data para refinar os dados exibidos.</p>
+                </div>
+            </li>
+
+            <!-- Passo 4 -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    4
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Execute a Operação</h3>
+                    <p class="text-sm text-gray-600">Clique no botão "Executar" para carregar as informações desejadas.</p>
+                </div>
+            </li>
+
+            <!-- Passo 5 -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    5
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Analise os Dados de Falso Pulso</h3>
+                    <p class="text-sm text-gray-600">Revise os dados de falso pulso configurados na aba Monitorado.</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Título da seção de observações importantes -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mt-12 mb-6">
+            Observações Importantes
+        </h2>
+
+        <!-- Lista de observações -->
+        <ul class="space-y-4">
+            <!-- Observação 1 -->
+            <li class="flex items-start">
+                <div class="w-6 h-6 flex items-center justify-center bg-red-500 text-white rounded-full font-bold mr-4">
+                    !
+                </div>
+                <p class="text-sm text-gray-700">
+                    <strong>OBS:</strong> Certifique-se de verificar os dados na aba Monitorado antes de executar a análise.
+                </p>
+            </li>
+
+            <!-- Observação 2 -->
+            <li class="flex items-start">
+                <div class="w-6 h-6 flex items-center justify-center bg-red-500 text-white rounded-full font-bold mr-4">
+                    !
+                </div>
+                <p class="text-sm text-gray-700">
+                    <strong>OBS:</strong> Sempre revise os dados exibidos antes de concluir o processo.
+                </p>
+            </li>
+        </ul>
+    </div>
+    <!-- Fim do container principal -->
+</body>
+
+</html>

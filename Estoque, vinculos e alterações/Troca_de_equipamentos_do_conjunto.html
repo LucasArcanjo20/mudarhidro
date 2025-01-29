@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o idioma do documento como Português do Brasil -->
+
+<head>
+    <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Torna a página responsiva em diferentes dispositivos -->
+    <title>Troca de Equipamentos do Conjunto</title>
+    <!-- Define o título da página exibido na aba do navegador -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos personalizados para a página */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo de texto em itálico */
+        .note {
+            font-style: italic;
+            color: #555;
+        }
+
+        .important {
+            font-weight: bold;
+            color: #C70039;
+        }
+
+        .obs {
+            font-weight: bold;
+            color: #C70039;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Corpo do documento -->
+
+    <!-- Título principal da página -->
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Troca de Equipamentos do Conjunto
+        </h1>
+
+        <!-- Parágrafo explicativo sobre o conteúdo da página -->
+        <p class="text-lg text-gray-700 mb-6">
+            Esta página descreve o processo para a troca de equipamentos de um conjunto de equipamentos no sistema. Siga as instruções abaixo para garantir que todas as etapas sejam concluídas corretamente.
+        </p>
+
+        <!-- Seção de passos para realizar a troca de equipamentos -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mb-6">
+            Passos para Troca de Equipamentos do Conjunto
+        </h2>
+
+        <ul class="space-y-6">
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    1
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Criar Ordem de Serviço de Revisão</h3>
+                    <p class="text-sm text-gray-600">Crie uma ordem de serviço para o box com conjunto de equipamentos.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    2
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Criar Equipamento</h3>
+                    <p class="text-sm text-gray-600">Crie o equipamento necessário, como um medidor ou outro.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    3
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Criar o Conjunto</h3>
+                    <p class="text-sm text-gray-600">Na criação do conjunto, o número de série do equipamento principal será exibido.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    4
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Carregar a Ordem de Serviço</h3>
+                    <p class="text-sm text-gray-600">Carregue a ordem de serviço criada no início.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    5
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Marcar a Troca de Conjunto</h3>
+                    <p class="text-sm text-gray-600">Selecione o conjunto criado na Ordem de Serviço.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    6
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Finalizar a Ordem de Serviço</h3>
+                    <p class="text-sm text-gray-600">Finalize a ordem de serviço após concluir todos os passos.</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Seção de observações sobre o processo -->
+        <h2 class="text-2xl font-semibold text-red-600 mt-8 mb-4">Observações</h2>
+        <ul>
+            <li class="obs text-red-600 font-bold">
+                OBS: O número de série do equipamento principal do conjunto atual será exibido automaticamente na criação do conjunto.
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

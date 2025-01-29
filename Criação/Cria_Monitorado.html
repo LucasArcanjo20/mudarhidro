@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define que este documento é HTML5 e configura o idioma como Português do Brasil -->
+
+<head>
+    <!-- Início da seção de cabeçalho da página -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para ser responsiva, ajustando-se a diferentes tamanhos de tela -->
+    <title>Fluxo de Criação de Monitorado</title>
+    <!-- Define o título da página, que aparece na aba do navegador -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Importa a biblioteca Tailwind CSS -->
+    <style>
+        /* Adiciona animações e transições suaves */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+            /* Suaviza a transformação e a sombra dos itens */
+        }
+
+        .step-item:hover {
+            transform: translateY(-5px);
+            /* Move o item ligeiramente para cima ao passar o mouse */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra sutil ao item ao passar o mouse */
+        }
+    </style>
+    <!-- Fim da seção de estilos -->
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Aplica um gradiente de fundo e configurações de texto e espaçamento -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Define um contêiner centralizado com bordas arredondadas, sombra e preenchimento interno -->
+
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Fluxo de Criação de Monitorado
+        </h1>
+        <!-- Título principal da página, estilizado com tamanho grande, negrito e cor azul -->
+
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            4ª Fase: Criação de Monitorado
+        </h2>
+        <!-- Subtítulo com tamanho médio, cor azul e uma linha inferior decorativa -->
+
+        <ul class="mt-8 space-y-6">
+            <!-- Lista de passos com espaçamento vertical entre os itens -->
+
+            <!-- Cada passo é um "card" estilizado -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    46
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Aba Monitorados</h3>
+                    <p class="text-sm text-gray-600">Acesse a aba de Monitorados para iniciar o processo.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    47
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Adicionar</h3>
+                    <p class="text-sm text-gray-600">Clique no botão "Adicionar" para incluir um novo Monitorado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    48
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cadastrar Monitorado</h3>
+                    <p class="text-sm text-gray-600">Inicie o cadastro do Monitorado preenchendo os dados necessários.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    49
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">ID Monitorado</h3>
+                    <p class="text-sm text-gray-600">Informe o ID do Monitorado. Se houver dúvidas, consulte o caderno para mais informações.</p>
+                    <!-- Explicação detalhada sobre como formar o ID Monitorado -->
+                    <ul class="pl-8 text-sm text-gray-600 mt-2">
+                        <li><strong>Exemplo:</strong> HS01 – Hidrocontrol</li>
+                        <li><strong>HS:</strong> Hidrosat</li>
+                        <li><strong>01:</strong> Número de equipamento dentro do cliente</li>
+                        <li><strong>03:</strong> Nomenclatura do poço</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    50
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Descrição</h3>
+                    <p class="text-sm text-gray-600">Informe a descrição do Monitorado, geralmente fornecida.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    51
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cliente</h3>
+                    <p class="text-sm text-gray-600">Informe quem será o usuário do Monitorado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    52
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Anotações</h3>
+                    <p class="text-sm text-gray-600">Se houver alguma anotação relevante, inclua neste campo.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    53
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Endereço</h3>
+                    <p class="text-sm text-gray-600">Informe o endereço completo para que a latitude e longitude possam ser preenchidas automaticamente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    54
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Latitude</h3>
+                    <p class="text-sm text-gray-600">Informe a latitude do local do Monitorado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    55
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Longitude</h3>
+                    <p class="text-sm text-gray-600">Informe a longitude do local do Monitorado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    56
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Situação</h3>
+                    <p class="text-sm text-gray-600">Defina a situação do Monitorado, geralmente como "Habilitado".</p>
+                </div>
+            </li>
+        </ul>
+
+    
+
+</body>
+
+</html>
+<!-- Fim do documento HTML -->

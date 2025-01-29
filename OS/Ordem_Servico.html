@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define que este documento é HTML5 e configura o idioma como Português do Brasil -->
+
+<head>
+    <!-- Início da seção de cabeçalho da página -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para ser responsiva, ajustando-se a diferentes tamanhos de tela -->
+    <title>Fluxo de Ordem de Serviço</title>
+    <!-- Define o título da página, que aparece na aba do navegador -->
+
+    <!-- Importação do Tailwind CSS para estilização -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Adiciona animações suaves para os itens da lista */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Estilo ao passar o mouse sobre um item */
+        .step-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Corpo do documento com fundo gradiente e texto padronizado -->
+
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        <!-- Container principal para o conteúdo, centralizado na tela -->
+        
+        <!-- Título principal -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Fluxo de Ordem de Serviço
+        </h1>
+
+        <!-- Subtítulo -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            11ª Fase: Ordem de Serviço
+        </h2>
+
+        <!-- Lista de passos -->
+        <ul class="mt-8 space-y-6">
+            <!-- Cada passo é um item estilizado -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <!-- Número do passo -->
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    119
+                </div>
+                <!-- Descrição do passo -->
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Aba Ordem de Serviços</h3>
+                    <p class="text-sm text-gray-600">Acesse a aba "Ordem de Serviços".</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    120
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cadastrar</h3>
+                    <p class="text-sm text-gray-600">Clique na opção "Cadastrar" para iniciar.</p>
+                </div>
+            </li>
+
+            <!-- Repita o padrão para todos os outros passos -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    121
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Tipo de Operação</h3>
+                    <p class="text-sm text-gray-600">Selecione "Ativação" como o tipo de operação.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    122
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cliente</h3>
+                    <p class="text-sm text-gray-600">Selecione o cliente criado na aba Cliente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    123
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Contrato</h3>
+                    <p class="text-sm text-gray-600">O contrato será preenchido automaticamente após selecionar o cliente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    124
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Técnico</h3>
+                    <p class="text-sm text-gray-600">Selecione o primeiro técnico disponível.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    125
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Monitorado</h3>
+                    <p class="text-sm text-gray-600">Escolha o monitorado configurado.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    126
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Data prevista</h3>
+                    <p class="text-sm text-gray-600">Mantenha a data prevista inalterada.</p>
+                </div>
+            </li>
+
+            <!-- Outros passos seguem o mesmo padrão -->
+        </ul>
+    </div>
+</body>
+</html>

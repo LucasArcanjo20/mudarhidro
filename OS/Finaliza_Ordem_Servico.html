@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define que este documento é HTML5 e configura o idioma como Português do Brasil -->
+
+<head>
+    <!-- Início da seção de cabeçalho da página -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, permitindo o uso de caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para ser responsiva, ajustando-se a diferentes tamanhos de tela -->
+    <title>Finalizar Ordem de Serviço</title>
+    <!-- Define o título da página, que aparece na aba do navegador -->
+
+    <!-- Link para a biblioteca Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* Adiciona animações e transições suaves para os itens da lista */
+        .step-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Efeito ao passar o mouse sobre os itens da lista */
+        .step-item:hover {
+            transform: translateY(-5px); /* Faz o item "subir" um pouco */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adiciona sombra para um efeito de destaque */
+        }
+    </style>
+    <!-- Fim da seção de estilos -->
+</head>
+
+<body class="bg-gradient-to-b from-gray-100 via-gray-200 to-gray-300 text-gray-800 font-sans leading-relaxed">
+    <!-- Início do corpo da página -->
+
+    <!-- Container centralizado com um fundo branco e bordas arredondadas -->
+    <div class="max-w-4xl mx-auto mt-12 bg-white rounded-lg shadow-lg p-8">
+        
+        <!-- Título principal da página -->
+        <h1 class="text-4xl font-bold text-center text-blue-600 mb-6">
+            Fluxo de Finalização da Ordem de Serviço
+        </h1>
+
+        <!-- Subtítulo com uma linha abaixo -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3">
+            12ª Fase: Finalizar Ordem de Serviço
+        </h2>
+
+        <!-- Lista de passos -->
+        <ul class="mt-8 space-y-6">
+            <!-- Cada item da lista é um "card" estilizado -->
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    141
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Cliente</h3>
+                    <p class="text-sm text-gray-600">Selecionar o cliente que foi criado no início.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    142
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Ordem de Serviço</h3>
+                    <p class="text-sm text-gray-600">Selecionar a ordem de serviço gerada para o cliente.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    143
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Carregar</h3>
+                    <p class="text-sm text-gray-600">Carregar as informações da ordem de serviço.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    144
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Início de Atendimento</h3>
+                    <p class="text-sm text-gray-600">Registrar uma hora antes do horário atual.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    145
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Fim do Atendimento</h3>
+                    <p class="text-sm text-gray-600">Registrar o horário atual.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    146
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Observação</h3>
+                    <p class="text-sm text-gray-600">Preencher apenas se houver informações adicionais relevantes.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    147
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Atualizar</h3>
+                    <p class="text-sm text-gray-600">Atualizar os dados da ordem de serviço.</p>
+                </div>
+            </li>
+
+            <li class="step-item flex items-start bg-blue-50 rounded-lg p-4 shadow-md">
+                <div class="w-10 h-10 flex items-center justify-center bg-blue-500 text-white rounded-full font-bold mr-4">
+                    148
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-700">Ativar</h3>
+                    <p class="text-sm text-gray-600">Ativar o sistema após a atualização.</p>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Seção para observações importantes -->
+        <h2 class="text-2xl font-semibold text-blue-500 border-b-2 border-blue-300 pb-3 mt-8">Detalhes Importantes</h2>
+        <ul class="mt-4 space-y-4">
+            <li>
+                <span class="font-semibold text-blue-500">Observação:</span> No final da página, haverá um calendário que corresponde aos passos
+                <span class="font-semibold text-blue-500">144</span> e <span class="font-semibold text-blue-500">145</span>. Utilize este calendário para registrar as datas de início e fim do atendimento.
+            </li>
+            <li>
+                Após preencher os dados, clique em <span class="font-semibold text-blue-500">Atualizar</span> (passo 147), localizado próximo ao mapa.
+            </li>
+            <li>
+                Para verificar se o sistema está funcionando corretamente, acesse a aba <span class="font-semibold text-blue-500">Relatórios</span>
+                e vá até <span class="font-semibold text-blue-500">Captação de Água</span>.
+            </li>
+        </ul>
+    </div>
+
+    <!-- Fim do corpo da página -->
+</body>
+
+</html>
+<!-- Fim do documento HTML -->
